@@ -25,6 +25,21 @@ Install prefered terminal emulator - Ghostty
 | I will use GhostTTY on my Linux (debian and fedora) and macOS.
 | For Windows 11 I will use the regular Windows Terminal.
 
+Fedora
+~~~~~~
+
+Hosted on COPR.
+
+https://copr.fedorainfracloud.org/coprs/pgdev/ghostty/
+
+.. code:: bash
+  
+  # enable copr repo
+  sudo dnf5 copr enable pgdev/ghostty 
+
+  # install stable
+  sudo dnf5 install ghostty
+
 Install prefered Terminal theme - Oh-My-Posh
 --------------------------------------------
 
